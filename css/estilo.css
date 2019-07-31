@@ -1,0 +1,302 @@
+/* CSS */
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body {
+    background: url(../images/fundoParede.jpg)fixed center center / 85% auto ;
+    z-index: -1;
+}
+img.thumb, #imgGrande img {
+    padding:10px;
+    background-color:#fff;
+    border: 1px solid #333;
+    box-shadow: 0px 0px 5px #333;
+    width: 100%
+}
+#imgGrande img {
+    height:600px;
+    width: 1000px;   
+}
+.trocaFundo {
+    margin: 10px 0px;
+}
+#imgGrande {
+    position:relative;    
+}
+.flecha {
+    position: absolute;
+    top:45%;
+    color:#fff;
+    background:rgba(0,0,0,0.6);
+    padding:10px 18px;
+    border-radius: 50%;
+}
+#flechaDir {
+    left: 710px;
+    color: black;
+}
+#flechaEsq {
+    left: 25px;
+     color: black;
+}
+#lupa {
+    position: absolute;
+    top:25px;
+    right: 30px;
+     color: black;
+}
+#pausa {
+    position: absolute;
+    top:25px;
+    right: 90px;
+     color: black;
+    
+}
+#play {
+    position: absolute;
+    top:25px;
+    right: 150px;
+    color: black;
+}
+a:hover {
+    color: #ccc;
+}
+#legenda {
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    right: 10px;
+    padding: 4px 10px;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+}
+
+h2{
+     -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-size: 2.5em; color: #fffdd9;
+}
+
+h3{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-size: 2em; color: #fffdd9;
+}
+#trocafundo{
+    background-color: darkslategray;
+    border-radius: 50px 20px;
+}
+
+.legenda {
+    font-family:      Indie Flower;
+    font-weight:      bold;
+    text-align:       right;
+    padding:          6px;
+    background-color: rgba(255, 255, 0, 0.3);
+    position:         absolute;
+    bottom:           10px;
+    left:             10px;
+    right:            10px;
+    color :           #fff;
+}
+.lupa {
+    position: absolute;
+    top:      20px;
+    right:    20px;
+}
+a:hover {
+    background-color: #f00;
+    color:            #000;
+}
+
+div.moto {
+    width:    250px;
+    margin:   20px;
+    float:    left;
+    position: relative;
+}
+div.moto img {
+    width:            100%;
+    background-color: #fff;
+    padding:          10px;
+    border-radius:    10px;
+}
+h1 {
+    text-align:       center;
+    font-family:      Rammetto One;
+    background-color: #000;
+    color:            #fa0;
+    margin:           20px;
+    padding:          20px;
+}
+#cabeca{
+    width: 31%;
+    margin-bottom: 20px;
+}
+#menu ul {
+    padding: 20px;
+    margin: -13px;
+    width: 41%;
+    background-color: #000;
+    list-style: none;
+    font: 130% arial;
+}
+
+#menu ul li { display: Inline; }
+
+#menu ul li a {
+    color: #ffd2a2;
+    text-decoration: none;
+    padding: 20px 15px;
+}
+
+#menu ul li a:hover {
+    background-color:#CC0033;
+    color: black;
+    border-bottom:5px solid #EA0000;
+}
+
+img.centro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+
+p.txt{
+    text-align: justify;
+    background-color: #fd6b42;
+    color: #131212;
+    margin: 20px;
+    position: relative;
+    float: left;
+    left: -207px;
+    width: 344px;
+    border-radius: 28px;
+    padding: 40px;
+    bottom: 63px;
+}
+p.txt2{
+    background-color: rgba(241, 235, 235, 0.7);
+    font-size: 20px;
+    text-align: justify;
+    position: relative;
+    margin: 20%;
+    bottom: 228px;
+}
+
+
+h1 {
+    text-align:       center;
+    font-family:      Rammetto One;
+    background-color: #000;
+    color:            #fa0;
+    margin:           20px;
+    padding:          20px;
+}
+
+.lupa {
+    position: absolute;
+    top:      20px;
+    right:    20px;
+    color: white;
+}
+a:hover {
+    background-color: #ffb8b3;
+    color:            #000;
+}
+
+div.membros {
+    width: 250px;
+    margin: 42px;
+    float: left;
+    position: relative;
+    left: 7%;
+
+}
+div.membros img {
+    width: 250px;
+    height: 172px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input[type=submit],input[type=reset],button {
+    background: #ccc;
+    border:1px solid #333;
+    color: #333;
+    border-radius: 10px;
+    height:30px
+}
+select option {
+    background: #000;
+    border: none;   
+}
+
+#disco{/*Imagem em discografia */
+    bottom: 19px;
+    width: 61%;
+    position: relative;
+
+}
+
+
+
+.bloco{/*bloco contato */
+    line-height: 50px;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+   
+}
+
+.espaco{
+    position: relative;
+    margin: 13%;
+}
+
+#asso{
+    display: block;
+    position: relative;
+    top: 550px;
+
+}
+.blcadastro{/*bloco usuario */
+    left: 23%;
+    top: 40px;
+    width: 50%;
+    display: block;
+    position: relative;
+    background-color: rgba(239, 230, 230, 0.7);
+}
+/* carouseul */
+.carousel{
+    width: 100%;
+    
+}
+.logo{
+    width:140px;
+}
+
+.login{
+    position: relative;
+    display: block;
+    left:300px;
+}
+
+input, textarea, select {
+    padding: 6px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+input[type=submit],input[type=reset],button {
+    background: #ccc;
+    border:1px solid #333;
+    color: #333;
+    border-radius: 10px;
+    height:30px
+}
